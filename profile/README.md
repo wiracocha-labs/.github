@@ -82,7 +82,7 @@ targets.
 
 ---
 
-### [Yachay](https://github.com/wiracocha-labs/yachay) — `Planned`
+### [Yachay](https://github.com/wiracocha-labs/yachay) — `Released (v0.1.0)`
 
 *Yachay* means "knowledge" in Quechua.
 
@@ -90,6 +90,9 @@ A local AI model recommender: selects the right open-source model for your
 hardware and your actual task. No downloading what you don't need, no paying
 for what you don't use. First target users: developers running local AI on
 older hardware.
+
+MVP CLI released as v0.1.0 — pre-compiled binaries for macOS, Linux, and
+Windows.
 
 ---
 
@@ -101,12 +104,12 @@ No dates — verifiable milestones.
 - Base architectures for Chaka and quipu-ipfs established.
 - First public repos with documented architecture decisions.
 - Chasqui in active development.
+- Yachay MVP released (v0.1.0, installers for macOS/Linux/Windows).
 
 **Exit criterion:** `cargo build` passes on all repos; Chasqui MVP functional.
 
 ### Phase 1 — First deliverables `Planned`
 - Chasqui launched and generating first revenue.
-- Yachay functional: recommends the right local model given hardware specs.
 - Two quipu-ipfs nodes communicating on a local network via mDNS.
 - First delta compression experiments documented in Chaka.
 
