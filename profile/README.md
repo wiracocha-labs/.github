@@ -100,17 +100,19 @@ Windows.
 
 No dates — verifiable milestones.
 
-### Phase 0 — Foundations `In progress`
+### Phase 0 — Foundations `Done`
 - Base architectures for Chaka and quipu-ipfs established.
 - First public repos with documented architecture decisions.
 - Chasqui in active development.
 - Yachay MVP released (v0.1.0, installers for macOS/Linux/Windows).
 
-**Exit criterion:** `cargo build` passes on all repos; Chasqui MVP functional.
+**Exit criterion:** `cargo build` passes on all repos.
 
-### Phase 1 — First deliverables `Planned`
+### Phase 1 — First deliverables `In progress`
+- Chasqui MVP functional (pre-launch).
 - Chasqui launched and generating first revenue.
-- Two quipu-ipfs nodes communicating on a local network via mDNS.
+- Two quipu-ipfs nodes communicating on a local network via mDNS ✅
+  (verified 2026-09-19).
 - First delta compression experiments documented in Chaka.
 
 **Exit criterion:** someone outside the project can install and use each tool
